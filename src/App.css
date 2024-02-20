@@ -1,0 +1,46 @@
+:root{
+    --primaryColor :#310034da;
+    --transprentBlue: #00004608;
+    --trsprentRedan: #0000000f;
+    --fontColor: #0a2006dc;
+}
+.rIcons{
+    font-size: 30px;
+    color: var(--fontColor);
+}
+.rIconTwo{
+    font-size: 38px;
+}
+.rIconOne{
+    font-size: 38px;
+}
+.rIconThird{
+    font-size: 36px;
+}
+.rIconFour{
+    font-size: 36px;
+}
+.rIconSix{
+    font-size: 99px;
+    margin: 20px 0  0 50px;
+}
+.absOne{
+    color: #f0f8ff34 ;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+    animation: animIconFirst .9s linear infinite alternate;
+    transition: .3s;
+}
+@keyframes animIconFirst{
+    form{
+        transform: scale(.5);
+    }to{
+        transform: scale(1.3);
+    }
+}
+marquee{
+    font-size: 36px;
+    margin-top: 22px;
+}
